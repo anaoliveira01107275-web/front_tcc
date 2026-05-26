@@ -21,8 +21,6 @@ export default function LoginPage() {
                 senha
             });
 
-            console.log(response.data);
-
             localStorage.setItem(
                 "token",
                 response.data.token
@@ -48,8 +46,14 @@ export default function LoginPage() {
 
                 <div className="text-center mb-8">
 
+                    <img
+                        src="/logo_zick.png"
+                        alt="ZickZone"
+                        className="w-40 h-40 object-cover mx-auto mb-6 rounded-full shadow-2xl shadow-black"
+                    />
+
                     <h1 className="text-4xl font-bold text-gray-900">
-                        Marketplace
+                        ZickZone
                     </h1>
 
                     <p className="text-gray-500 mt-2">
@@ -63,7 +67,7 @@ export default function LoginPage() {
                     <input
                         type="email"
                         placeholder="Digite seu email"
-                        className="w-full border border-gray-300 p-4 rounded-xl outline-none"
+                        className="w-full border border-gray-300 p-4 rounded-xl outline-none text-black placeholder:text-gray-500"
                         value={email}
                         onChange={(e) => setEmail(e.target.value)}
                     />
@@ -71,14 +75,14 @@ export default function LoginPage() {
                     <input
                         type="password"
                         placeholder="Digite sua senha"
-                        className="w-full border border-gray-300 p-4 rounded-xl outline-none"
+                        className="w-full border border-gray-300 p-4 rounded-xl outline-none text-black placeholder:text-gray-500"
                         value={senha}
                         onChange={(e) => setSenha(e.target.value)}
                     />
 
                     <button
                         onClick={handleLogin}
-                        className="w-full bg-black text-white p-4 rounded-xl font-semibold"
+                        className="w-full bg-black hover:bg-gray-800 transition-all text-white p-4 rounded-xl font-semibold"
                     >
                         Entrar
                     </button>

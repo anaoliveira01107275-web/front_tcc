@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Feito por: Ana Beatriz
 
-## Getting Started
+Nome da Loja: ZickZone
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+O objetivo de criar está loja seriam pra pessoas que querem vender seus produtos em estoque mas não querem sair de casa, seria um tipo de site igual a shopee e minha loja ganharia um percentual em cima de cada produto vendido. Para cadastrar seu produto é super fácil logo que você faz login na página já aparece pra você colocar um produto seu á venda, depois tem como: editar, deletar e ver produto. Um site super fácil de mexer especialmente para pessoas acima de 45 anos anos que tem um pouco mais de dificuldade com as tecnologias novas.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Estas foram as tecnologias utilizadas neste projeto:
 
-## Learn More
+Frontend:
+- Next.js  (Framework utilizado para criar a interface web do sistema)
+- React (Biblioteca Utilizada psrs criar components e páginas interativas)
+- TailwindCSS (Framework CSS utilizado para estilizar rapidamente e responsiva das telas)
+- TypeScript ( Linguagem utilizada para adicionar imagem)
 
-To learn more about Next.js, take a look at the following resources:
+Backend:
+Node.js — Ambiente utilizado para execução do servidor backend.
+Express — Framework responsável pela criação das rotas e da API.
+Prisma — ORM utilizado para comunicação com o banco de dados.
+JWT — Tecnologia utilizada para autenticação de usuários através de tokens.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Banco:
+PostgreSQL — Banco de dados relacional utilizado para armazenamento das informações do sistema.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Ferramentas:
+Visual Studio Code — Editor de código utilizado no desenvolvimento do projeto.
+Postman — Ferramenta utilizada para testes das rotas da API.
+GitHub — Plataforma utilizada para versionamento e armazenamento do código-fonte.
